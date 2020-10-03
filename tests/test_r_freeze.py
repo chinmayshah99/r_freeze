@@ -6,3 +6,6 @@
 import pytest
 
 from r_freeze import r_freeze
+
+def test_ok():
+    print("ok")
