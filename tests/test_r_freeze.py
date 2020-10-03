@@ -6,4 +6,3 @@
 import pytest
 
 from r_freeze import r_freeze
-
