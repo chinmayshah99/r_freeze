@@ -6,12 +6,11 @@ r_freeze
 .. image:: https://img.shields.io/pypi/v/r_freeze.svg
         :target: https://pypi.python.org/pypi/r_freeze
 
-![Tests](http://img.shields.io/github/workflow/status/chinmayshah99/r_freeze/Python%20package)
+.. image:: http://img.shields.io/github/workflow/status/chinmayshah99/r_freeze/Python%20package
 
 .. image:: https://readthedocs.org/projects/r-freeze/badge/?version=latest
         :target: https://r-freeze.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
-
 
 .. image:: https://pyup.io/repos/github/chinmayshah99/r_freeze/shield.svg
      :target: https://pyup.io/repos/github/chinmayshah99/r_freeze/
