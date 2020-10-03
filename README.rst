@@ -6,8 +6,7 @@ r_freeze
 .. image:: https://img.shields.io/pypi/v/r_freeze.svg
         :target: https://pypi.python.org/pypi/r_freeze
 
-.. image:: https://img.shields.io/travis/chinmayshah99/r_freeze.svg
-        :target: https://travis-ci.com/chinmayshah99/r_freeze
+![Tests](http://img.shields.io/github/workflow/status/chinmayshah99/r_freeze/Python%20package)
 
 .. image:: https://readthedocs.org/projects/r-freeze/badge/?version=latest
         :target: https://r-freeze.readthedocs.io/en/latest/?badge=latest
