@@ -76,13 +76,16 @@ def write_package_file(packages: List[str], file_name: str, overwrite: bool = Fa
     Raises:
         FileExistsError: If the outfile already exists (incase not overwriting)
     """
+    # if the file already exists and overwrite flag is false, raise an error
     if os.path.isfile(file_name) and not overwrite:
         raise FileExistsError("File already exists")
-    # if file name exists, create a new file
+
+    # if the output file is a R file, create a proper R script
     if file_name[-1] == "R":
         with open(file_name, mode="w", encoding="utf-8") as f:
             for item in packages:
-                f.write("install.packages(%s)\n" % item)
+                f.write('install.packages("%s")\n' % item)
+    # incase the output file is not a R file, just print it out as a list of packages
     else:
         with open(file_name, mode="w", encoding="utf-8") as f:
             for item in packages:
