@@ -13,7 +13,7 @@ r_freeze
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/chinmayshah99/r_freeze/shield.svg
-     :target: https://pyup.io/repos/github/chinmayshah99/r_freeze/
+     :target: https://pyup.io/repos/github/chinmayshah99/ # broken
      :alt: Updates
 
 
