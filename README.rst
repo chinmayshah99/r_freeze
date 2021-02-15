@@ -12,10 +12,6 @@ r_freeze
         :target: https://r-freeze.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/chinmayshah99/r_freeze/shield.svg
-     :target: https://pyup.io/repos/github/chinmayshah99/ # broken
-     :alt: Updates
-
 
 
 Pipreqs for R
